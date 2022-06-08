@@ -1,0 +1,457 @@
+AULA 1
+
+github.com/gustavoguanabara
+gustavoguanabara.github.io
+
+///////////////////////////////////////////////////////////////
+
+AULA 2
+
+///////////////////////////////////////////////////////////////
+
+AULA 3
+
+referencias online - w3schools
+
+livros - psicologia das cores
+
+////////////////////////////////////////////////////////////////
+
+AULA 4
+
+Historia da internet, capitulo 1
+
+////////////////////////////////////////////////////////////////
+
+AULA 5
+
+Como a internet funciona,capitulo 2
+binary digit=1 bit
+representação em 8 bits=1 byte    exemplo: 01000001=A
+UTF-8 ?	é um tipo de codificação binária, usa de um a quatro bytes
+1024 byte=1 KB
+MB != Mb    - MB-megabytes armazenamento ,Mb-megabits transmissão 
+
+/////////////////////////////////////////////////////////////////
+
+AULA 6
+
+Parte 2, capitulo 2
+Dominio - nome que identifica seu site, nome unico
+Hospedagem - local onde seu site vai estar armazenado
+
+/////////////////////////////////////////////////////////////////
+
+AULA 7
+
+Como funcionam a HTML e a CSS, capitulo 3
+HTML - HyperText Markup Language(linguagem de marcaçao para texto)
+Linguagem focada em conteudo(textos,imagens,videos,tabelas)
+
+CSS - Cascading Style Sheets(folha de estilo em cascata)
+Foco em design(cores,sombras,tamanhos,posicionamento)
+
+//////////////////////////////////////////////////////////////////
+
+AULA 8
+
+Parte 2, capitulo 3
+Front-end - tecnologia que funcionam para o lado do cliente(Client-side), parte visual, focado no usuario
+Back-end - tecnologias que rodam para o lado do servidor(Server-side),focado com o codigo e o servidor
+Full-stack - desenvolvedor tanto front-end e back-end
+
+///////////////////////////////////////////////////////////////////
+
+AULA 9
+
+Baixando o visual studio code
+DOCTYPE html - indica o html mais moderno 
+lang - lingua
+head - cabeça (parte de configuraçao do site)
+body - corpo (parte de conteudo do seu site)
+UTF-8 - para suportar acentuação
+viewport, scale=1 - indica que o site vai ocupar 100% da tela disponivel dada pelo o navegador
+
+////////////////////////////////////////////////////////////////////
+
+AULA 10
+
+hr - cria uma linha horizontal
+h1 - titulo que aparece no site
+p - conteudo que voce coloca no site
+title - titulo que fica no cabeçalho na aba
+
+/////////////////////////////////////////////////////////////////////
+
+AULA 11
+
+capitulo 5
+Paragrafos e quebra de linhas
+p - transforma em paragrafo 
+br(break roll) - faz um quebra de linha dentro de uma frase
+
+/////////////////////////////////////////////////////////////////////
+
+AULA 12
+
+Utilizaçao de simbolos e emojis
+simbolo - utilizar sempre o & antes de todas as palavra
+emojis - utilizar sempre o &#x antes de todos os codigos 
+
+//////////////////////////////////////////////////////////////////////
+
+AULA 13
+
+Direito de imagens
+
+colocar no google a imagens que voce quer e depois ir em ferramentas direitos de uso 
+e escolher a melhor opçao para voce o mais seguro e a primeira opçao
+sites para utilizar imagens - pexels, unsplash, tem outros no PDF para estudos
+
+////////////////////////////////////////////////////////////////////////
+
+AULA 14
+
+Formato de imagem, capitulo 6
+instalaçao do GIMP
+JPEG - mais compacto, não tem suporte a transparencia
+PNG -tem suporte a transparencia, qualidade um pouco melhor
+
+/////////////////////////////////////////////////////////////////////////
+
+AULA 15
+
+NAO TER UMA IMAGEM TAO PESADA PARA NAO PESAR NO SITE QUE IRA CRIAR
+Tamanho da imagem
+Nao precisa da imagem do tamanho maximo
+
+//////////////////////////////////////////////////////////////////////////
+
+AULA 16
+
+tag <img>, capitulo 6
+scr(source) - descreve aonde esta a origem do arquivo
+alt(alternative) - um o texto que explica melhor qual a imagem
+  
+No scr entre as aspas clicar o control+barra de espaço ,vai aparecer as imagens disponiveis que você colocou na pasta
+
+Podemos tambem carregar imagens de sub-pastas que esta dentro da pasta que esta usando 
+e de outros links atraves do endereço de imagem 
+
+////////////////////////////////////////////////////////////////////////////
+
+AULA 17
+
+Icone de favorito, capitulo 6
+Iconarchive - site para procurar imagens para ser seu icone
+favicon.cc - consegue desenhar o icone,ou seja,fazer um icone  que voce quiser basta criar
+favicon.io - transformar alguma coisa em icone
+
+Para inserir o favicon, emcima de title colocar link e depois adicionar link:favicon 
+e com o control+espaço apagando a referencia que ele te deu(href) pode selecionar o icone que voce quiser
+ 
+//////////////////////////////////////////////////////////////////////////////
+
+AULA 18
+
+Hierarquia de titulos
+Niveis de titulos - titulo principal, subtitulo, titulo dentro do subtitulo, etc.
+h- vai vde h1 até h6
+Lorem - paragrafo com texto para exemplificar
+
+/////////////////////////////////////////////////////////////////////////////////
+
+AULA 19
+
+Semântica na HTML5 é importante, capitulo 8
+Semântica - ramo da linguistica que estuda a significaçao das palavras e suas mudanças de sentido ao
+longo do tempo, bem como representaçao do sentido dos enunciados
+
+O HTML5 nao se foca mais em forma, se agora so em semantica
+
+https://dev.w3.org/html5/pf-summary/obsolete.html
+lista de tags que nao sao mais validas no HTML5 
+
+////////////////////////////////////////////////////////////////////////////////////
+
+AULA 20
+
+Negrito e itálico do jeito certo, capitulo 8
+fazer em uma frase selecionada parea colocar uma tag
+control+shift+p - clicar em envelope com a abreviatura(abb) e colocar o tag que voce quiser
+Usar as formas semânticas no HTML, portanto, utilizar as tags strong, em, etc. 
+strong - negrito
+i - itálico
+em - ênfase na frase
+
+////////////////////////////////////////////////////////////////////////////////////
+
+AULA 21
+
+Formatações adicionais em HTML, capitulo 8
+Mark - marcador de texto
+Se colocar a tag mark depois do title, criando um style e depois background-color(muda de cor do marca texto)
+isso vai se referir para todos os mark que voce colocar no seu texto nas partes de baixo
+ 1-colocar a style dentro da tag, 2-colocar dentro do documento
+
+big- uma palavra um pouco maior
+small - uma palavra um pouco menor
+del - delete palavra não considerada
+ins - inserir indicar que foi adicionada
+u - sublinhar
+sup - superior, exemplo - algo elevado 
+sub - inferior, exemplo - algo abaixo de uma palavra
+
+///////////////////////////////////////////////////////////////////////////////////
+
+AULA 22
+
+Citações e códigos, final capitulo 8
+
+Código Fonte
+code - fonte monoespeçada (um espaçamento só, igual para todas as letras)
+pre - ordena no jeito que o código esta escrito no software para o site
+shift+tab - forma de remover espaçamento
+ 
+Citações
+q - citação simples não quebra linha( abrir aspas), frases pequenas
+blockquote - citação completa, tem quebra de linha e espaçamento vertical, feita em destaque para frases longas tiradas
+de livros ou algo do tipo
+
+Abreviaçoes
+abbr - abreviaçao (deixa marcado dentro do tittle que vem junto com o abbr da palavra que foi selecionada algo em destaque que voce escreveu)
+
+Texto invertido
+
+bdo - com rtl, deixa sua frase ou palavra invertida, com o ltr, deixa sua frase do geito normal dela   
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 23
+
+Listas OL e UL, capitulo 9
+OL - lista ordenada, li(list item), coloca dentro da tag OL(/li e opcional para o HTML5), ordena o numero da lista
+colocando type dentro dentro do ol, voce pode mudar o tipo de ordenação(numeros, numeros romanos(I ou i), letras(A ou a))
+start voce pode colocar em que letra ou numero voce quer começar a contagem da ordenação
+UL - lista não ordenada li(list item), coloca dentro da tag UL(/li e opcional para o HTML5), não ordena com numeros
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 24
+
+Listas mistas e de definição, capitulo 9
+
+Lista mista
+colocar dentro do tag <li> um <ol>
+Comando utilizando como atalho para facilitar o trabalho (clique do lado esquerdo do mouse + alt) 
+no lugar desejado para ter algo ou mudar algo
+
+lista de definição - tag <dl>
+Termo - tag <dt>
+descrição - tag <dd>
+Não tem marcação
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 25
+
+Links e âncoras em HTML5, capitulo 10
+
+EX.010
+Fundamento básico do HTML
+tag <a> - cria um link externo(link que vai pra fora do meu site< pra outro site) 
+na frase ou na palavra que você deseja colocar este link
+"target="blank" rel="external"
+target=_blank - serve para quando clicar em um link criado este link seja aberto em outra aba e não 
+emcima da aba de seu site
+rel=external - justifica para o navegador que o link é externo
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 26
+
+Links internos, capitulo 10
+
+EX.010 continuação
+o link interno não precisa indicar a URL do site que voce quer
+o href da tag <a> pode ser pego no atalho control+espaço
+que vai ser a pagina que voce criou no mesmo programa, e tem que estar na mesma pasta do index(programa principal)
+rel="prev" - indicando que é a página anterior
+rel="next" - indicando que é a próxima pagina
+esses dois serve como indicação para o google para ele não ficar confuso
+Se o programa estiver em outro arquivo para colocar no principal tem que ser com o atalho control+espaço e pegar a pasta
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 27
+
+Links para download
+
+EX.010
+Criando uma outra pasta no arquivo emque esta fazendo a programação colocar dentro desta nova pasta arquivos para serem
+utilizados como links tipo( PDF, PASTA COMPACTA)
+criar link utilizando a Tag <a> e dentro da tag <a> colocar a tag <download> com o nome do arquivo e o tipo de arquivo
+e depois a tag type="application/aqui o tipo do arquivo(pdf,zip,etc)" 
+Se não colocar estas tags dentro da tag <a> vai ser um link vazio
+
+lista de media type - iana.org/assignments/media-types	- para o formato de download para cada arquivo que voçê for seloecionar
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 28
+
+Imagens dinâmicas, capitulo 11
+
+EX.011
+Multiplas imagens para tamanhos de telas diferentes
+criando no editor de imagem fotos adaptavel para cada tela
+exemplo: televisao(1000x1000), computador(700x700), ceular(300x300) com resolução de 80 em x e y 
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 29
+
+Continuação da aula 28, capitulo 11
+
+EX.011
+Imagens que se adaptam sozinhas
+Utilizando a tag <picture> dentro utilizando img colocando dentro do alt- imagem flexivel
+e a tag <source:media:type>(não funciona o control+espaço) dentro de picture tambem para alterar a foto com 
+o tamanho correspondente a tela
+alterar min-width para max-width e colocar o maximo de pixel da foto que adaptou no GIMP com uma folga de 50 
+scrset - colocar a imagem que vai alterar depois de mexer no tamanho
+o sources tem que ser na ordem certa das imagens
+
+///////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 30
+
+Colocando áudio no seu site, capitulo 11
+
+usar a tag <audio> e alguns <source> para fazer seu site ser capaz de tocar
+qualquer áudio. 
+
+O atributo preload indica se o áudio será pré-carregado ou não e aceita três
+valores:
+๏ metadata vai carregar apenas as informações sobre o arquivo (tamanho,
+tempo, informações de direitos, etc)
+๏ none não vai carregar absolutamente nada até que o usuário clique no botão
+play ou um script inicie a reprodução
+๏ auto (padrão) vai carregar o arquivo de áudio inteiro assim que a página for
+carregada, mesmo que o usuário nunca aperte o play 
+
+O atributo controls vai apresentar o player na tela. Caso não seja colocado na tag
+<audio>, o controle será transparente e o usuário não poderá interagir com ele.
+‣ O atributo autoplay, quando inserido, vai iniciar a reprodução do áudio assim que
+a página for carregada.
+‣ O atributo loop vai fazer com que o áudio seja repetido eternamente assim que
+terminar a sua reprodução. 
+
+formatos para audio - suportados são MPEG, WAV, OGG, mas os que são maisrecomendados são o MPEG e OGG
+o WAV é muito grande por isso não recomendado
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 31
+
+Formatos de vídeo para aseu site, capitulo 11
+
+EX.012
+Vídeos de forma eficiênte
+pexels - site para baixar imagens,videos sem direitos autorais
+compatibilidade - MP4, M4V, WEBM, OGG(OGV para vídeo)
+dica - programa handbrake, para formatar(conversor de video) videos em  videos menores ou para outras compatibilidade
+
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 32
+
+Continuação da aula 31, capitulo 11
+
+Videos em hospedagem própria
+
+EX.012
+width vai indicar a largura que o vídeo vai ter na tela. Nesse exemplo, 600px.
+‣ poster configura uma imagem que vai aparecer como uma capa, enquanto o
+visitante não aperta o play para reproduzir o vídeo
+‣ controls vai configurar se os controles do vídeo vão aparecer na parte inferior da
+mídia. Por padrão, os controles não aparecerão, mas basta colocar a palavra
+controls na tag <video>.
+‣ autoplay diz para o navegador se o vídeo vai começar a tocar automaticamente,
+assim que a página for carregada. 
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 33
+
+Incorporação de vídeos externos, capitulo 11
+
+EX.012
+Utilizando serviços de hospedagem de video, youtube, vimeo por exemplo
+
+Para pegar o link: clique no video vá em compartilhar e depois incorporar e copie o link
+e depois colar no código html
+
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 34
+
+Estilos CSS inline, capítulo 12
+
+EX.013
+
+Utilizado na linha da tag de texto com a tag style por exemplo:
+
+<body style="background:lightskyblue;">
+
+Este tipo de estilo é propício a ser utilizado quando quiser fazer o estilo em uma tag de texto 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 35
+
+Estilos CSS interno, capitulo 12
+
+Utilizando na tag <head> encima ou embaixo da tag <title> colocar a tag <style> que vai funcionar
+como um seletor, configurando todos da tag selecionada 
+exemplo:
+
+<style>
+        body{
+           background-color: aqua;
+           font-family: 'Times New Roman', Times, serif;
+           font-size: 20px; 
+        }
+        h1{
+            color: blueviolet;
+        }
+        h2{
+            color: brown;
+        }
+</style>
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 36
+
+Estilos CSS externos, capítulo 12
+
+EX.015
+Para criar um link externo, basta colocar na area da tag <head> o link:css e depois criar um arquivo do css
+
+REGRAS: @charset "UTF-8";
+@ - significa regra
+
+Você pode usar mais de um link 
+Você pode usar em um mesmo código CSS-interno, CSS-inline e CSS-externo
+
+CSS-inline > CSS-interno > CSS-externo    
+
+
+
+
+
+
+
+
+

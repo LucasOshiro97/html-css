@@ -1,0 +1,486 @@
+ Modulo 3
+
+Aula 1
+
+Oque é Git e GitHub?, capitulo 18
+
+repositório local/remoto- local onde se guarda coisas 
+
+git - gerenciador de versões do projeto, software gratuito -> repsitório local, repositório de codigos que fica guardado no computador
+github - faz backup na nuvem -> repositório remoto
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 2
+
+Gerenciando repositórios GitHub, capitulo 18
+
+Para atualizar algo no git repositorio local, basta clicar em commit to mater que aparece no software
+do Git
+
+E para atualizar no repositório remoto GitHub, no aplicativo do Git, clicar em push origin
+
+Para apagar o repositório, você tem que apagar o repositório local e o remoto:
+
+*repositório local - para apagar, no aplicativo escolha o repositório que quer apagar e depois em repository depois em remove e marcar a opção 
+*repositório remoto - para apagar, no site escolha o repositório que quer apagar e depois clicar no repositório, em settings rolar para o final 
+			no danger zone e delete this repository e digitar oque ele pede
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 3
+
+Hospedando site gratuitamente com Github pages, capitulo 18
+
+Para colocar o site no ar no Github, habilite o Github pages dentro de settings selecionando choose a theme
+selecionar um tema e vai habilitar um link para o github pages, esse link abre o arquivo do readme 
+
+Para deixar ver o site atraves de um link, em settings colocar template repository, depois em pages branch: main, /docs e save.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 4
+
+Manutenção em sites hospedados no GitHub Pages, capitulo 18
+
+Depois de resolver os problemas, no software do Git voce faz o commit, push origin e pronto.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 5
+
+Recursos sociais do HitHub, capitulo 18
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 6
+
+Clonando repositórios GitHub, capitulo 18
+
+Para clonar o arquivo, basta fazer download do arquivo que voce quer, aparecendo no Git a opçao de pasta onde quer colocar 
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 7
+
+GitHub em vários PC's, capitulo 18
+
+Precisa ter os 3 aplicativos no pc: git,visual studio code, github desktop
+
+Procedimento:
+
+1° - abrir github desktop, file, options, accounts, colocar login e senha, depois ele ja vai te 
+dar os arquivos ja guardados nessa conta como opção, clicar no projeto e depois clonar, criar uma 
+pasta nova ou colocar em uma já existente. 
+
+OBS: Para não dar problema, vá em file options e clicar em Git e save.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 8
+
+Colocando uma imagem de fundo no seu site, capitulo 19
+
+ex022 - fundo001
+Existem tres tipos para colocar efeitos no fundo
+
+div#q1{
+            background-color: skyblue;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to bottom, rgb(0, 174, 255), rgb(0, 17, 255));
+        }
+
+        div#q3{
+            background-image: url("imagens/pattern001.png ");
+
+
+A terceira opção faz com que você consiga colocar uma imagem como personalização do 
+fundo do site
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 9
+
+Imagens que se repetem no fundo do site, capitulo 19
+
+ex022 - fundo002
+
+background-size - configura o tamanho da imagem
+
+background-repeat: repeat; - faz com que a imagem seja repetida
+
+background-repeat: no-repeat; - faz com que a imagem não seja repetida
+
+background-repeat: repeat-x; - faz a repetição no eixo deitado
+
+background-repeat: repeat-y; - faz a  repetição no eixo vertical
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 10
+
+Configurando a posição da imagem no fundo do site, capitulo 19
+
+ex022 - fundo003, fundo004, fundo005
+
+hv - parte branca(o fundo do site)
+
+ o posicionamento da imagem pode ser feita atraves da tag background-position
+algumas formas de usar esta tag são:
+
+ background-position: left top;
+ background-position: left center;
+ background-position: right bottom;
+ background-position: center center;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 11
+
+Mudando o tamanho da imagem de fundo do site, capitulo 19
+
+ex022 - fundo006
+
+background-size: 100%; - muda conforme você modifica o tamanho da tela, mas para tirar alguns problemas com essa tag
+				utilizaremos outro modo de usar este recurso
+
+background-size: auto;
+background-size: contain; - imagem 100% exibida
+background-size: cover; - cobrir a tela inteira, adaptando o fundo conforme o tamanho que deixar o site
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 12
+
+Background-attachment e shorthand, capitulo 19
+
+ex022 - fundo006
+
+Para fazer com que a imagem da pagina do site qunado rolada para baixo e conseguir comque ela continue
+não colocando a repetição da imagem colocada
+
+É preciso usar o : vinculo= attachment 
+
+background-attachment: scroll; - o fundo rola junto com o conteudo
+background-attachment: fixed; - o fundo não rola junto com o conteudo
+
+shorthand do background
+
+ordem:
+color > image > position > repeat > [size] > attachment
+				    no momento do video que foi gravado o size não estava sendo aplicado
+exemplo:
+
+background: black url('imagens/wallpaper002.jpg') center no-repeat cover fixed;
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 13
+
+Centralização vertical de caixas, capitulo 19
+
+ex022 - fundo007
+
+Para colocar a caixa em um alinhamento na vertical é necessario fazer:
+
+#container
+position: relative
+
+#conteudo
+position: absolute
+
+left: 50%
+top:50%
+
+transform: translate(-50%,-50%)
+
+ Isso so da para fazer se a tag position estiver em absolute e o outro em position em relative
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 14
+
+Um projeto completo usando HTML e CSS, capitulo 20
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 15
+
+Download e organização dos arquivos, capitulo 20
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 16
+
+Ajustes no HTML do projeto, capitulo 20
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 17
+
+Ajustes no CCS do projeto, capitulo 20
+
+text-transform: uppercase;  ->  deixa todas as letras maiusculas
+font-variant: small-caps;  ->  deixa todas as letras maiusculas, de um modo diferente
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 18
+
+Colocando as fontes ao projeto, capitulo 20
+
+	   porcentagem - view width
+font-size: 10vw; -> neste estilo, as letras conforme diminui a janela da pagina o codigo corresponde a deixar a letra 
+			do tamanho necessario para cada tamanho de tela
+
+display: inline-block; -> uma caixa que se adapta com o tamanho do conteudo
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 19
+
+Imagens com efeito parallax simples, capitulo 20
+
+box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.24); -> inset serve para fazer uma sombra para dentro da caixa 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ 
+Aula 20 
+
+Hospedando o projeto Cordel grartuitamente, capitulo 20
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 21
+
+Ainda podemos usar tabelas em HTML?, capitulo 21
+
+*Você não pode criar tabela para fazer a estrutura do seu site,ruim para criação do layout do site
+
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 22
+
+Sua primeira tabela em HTML, capitulo 21
+
+ex023 - tabela001
+Toda tabela mais simples são das seguintes hierarquias
+
+table = tabela
+table row = linha de tabela
+table header = cabeçalho de tabela
+table data = dado de tabela
+
+<table>
+        <tr> <!--table row - primeira linha-->
+            <td>A1</td> <!--table data-->
+            <td>B1</td>
+            <td>C1</td>    
+        </tr>
+
+        <tr>
+            <td>A2</td>
+            <td>B2</td>
+            <td>C2</td>
+        </tr>
+
+        <tr>
+            <td>A3</td>
+            <TD>B3</TD>
+            <TD>C3</TD>
+        </tr>
+    </table>
+
+border-collapse: collapse; -> faz a junção das bordas
+
+
+OBS: *o W3C coloca como opcional o fechamento das tags da tabela
+
+      *Se a hierarquia não for obedecida os dados vão aparecer antes ou depois da tabela			
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 23
+
+Alinhando o conteudo em tabelas, capitulo 21
+
+ex023 - tabela001
+text-align: center; /* Alinhamento horizontal */
+
+vertical-align: middle; /* Alinhamento vertical -> top, midddle, bottom */
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 24
+
+Apredendo a trabalhar com tabelas grandes, capitulo 21
+
+ex023 - tabela002
+Tags semântica para tabelas, usar quando for feito tabelas grandes
+
+ANATOMIA PARA TABELAS GRANDES
+
+        TABLE
+            THEAD (cabeça)
+                TR, TD, TH
+            TBODY (corpo)
+                TR, TD, TH
+            TFOOT (pé)
+                TR, TD, TH 
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 25
+
+Caption e escopo de titulos em tableas, capitulo 21
+
+ex023 - tabela002
+Caption - legenda da tabela, aparece antes da cabeça (é um texto)
+
+scope:"col" - para identificação da mesma coluna
+scope:"row" - para identificação da mesma linha
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 26
+
+Efeito zebrado na tabela com HTML e CSS, captulo 21
+
+ex023 - tabela002
+
+*O efeito zebrado é mais utilizado quando tem muitas colunas para não se perder na linha que esta
+olhando
+
+*para fazer o efeito zebrado, utiliza uma pseudo classe nth-child(n)
+
+o n dentro do parenteses fala em qual linha ele vai efetivar o efeito zebrado
+	por exemplo:
+
+			tbody>tr:nth-child(2n){
+           			 background-color: lightgray;
+
+        		}
+
+odd - palavra impar em ingles, pode ser colocado dentro do parenteses, =2n-1
+even - palavra par em ingles, pode ser colocado dentro do parenteses, =2n
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 27
+
+Cabeçalho fixo em tabelas grandes, capitulo 21
+
+ex023 - tabela002
+Faz com que o titulo fique colado na parte de cima, para faça:
+
+table{
+            position: relative;
+        }
+
+ thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+	    }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 28
+
+Mesclagem de celulas, capitulo 21
+
+ex023 - tabela003
+
+Para fazer a mesclagem em colunas usa-se: colspan="n" -> *n - quantidade de colunas que deseja mesclar
+
+Para fazer a mesclagem em linhas usa-se: rowspan="n" -> *n - quantidade de linhas que deseja mesclar
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 29
+
+Desafios parte 1, capitulo 
+
+d013 - mesclagem
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 30
+
+Exemplo de tabela completa, capitulo 21
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 31
+
+Escopos de grupo, capitulo 21
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 32
+
+Desafios (parte 2), capitulo 21
+
+A quantidade de escopos é definido pela quantidade de th que tem dentro do programa
+
+por exemplo:
+
+6 th = 6 escopos
+
+*quando eu uso espanções, o uso de mesclagem, tem que analisar pelo o grupo, ou seja, 
+se ele pode ou não  ter uma quantidade de linhas/colunas de dados contida nesta mesclagem
+
+por exemplo:
+
+<th colspan="3" scope="colgroup">Filmes</th>
+
+<th rowspan="3" scope="rowgroup">Mulheres</th>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 33
+
+Agrupando colunas com colgroup, capitulo 21
+
+ex023 - tabela005
+
+Para conseguir personalizar uma coluna inteira, é necessario aplicar o código colgroup
+
+<colgroup>
+            <col class="cnome">
+            <col class="cgrupo" span="n">   -> o span significa espalhar a personalizam para mais de uma coluna 
+						n=quantidade de coluna que deseja personalizar
+            <col class="cprof">
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 34
+
+Tableas responsivas, capitulo 21
+
+ex023 - tabela00
+
+colocar todo o conteudo que esta dentro de table em uma div
+e na parte de style
+colocar a tag overflow da qualfor sua preferencia
+
+
+div{
+            overflow-x: auto;
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+

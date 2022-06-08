@@ -1,0 +1,648 @@
+Modulo 2
+
+AULA 1 
+
+Psicologia das cores, capitulo 13
+
+Azul - remete-se a competência, sabedoria, calma, confiança, profissionalismo, integridade, segurança
+A cor é muito importante para a representabilidade de um site
+cada cor se arremete a um tipo de site
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 2
+
+Representando as cores com CSS, capitulo 13
+
+EX016 -> cor01.html
+As cores principais representado por: azul, verde, vermelho (RGB)
+
+no código fica: #xx-vermelho xx-verde xx-azul
+		#xxxxxx
+
+Exemplo:		00-significa que não tem nada da cor que representa aquela parte(zero de cor)
+azul -> #0000ff		ff-significa a cor na sua totalidade(máximo)
+branco -> #ffffff
+
+0(mínimo) até 255(máximo)
+
+Pode ser representado de 4 formas possiveis 
+
+1-Representação por nomes
+
+	<H2 style="background-color: blue; color: white;">
+
+2-Representação por códigos Hexadecimais
+
+	<h2 style="background-color: #0000ff; color: #ffffff;">
+
+3-Representação em RGB
+
+	 <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">
+
+4-Represenção por HSL (Hue, Saturation, Luminosity) - (Matiz, Saturação, Luminosidade)
+
+	<H2 style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">
+
+matiz
+substantivo masculino
+colorido obtido da mistura ou combinação de várias cores num todo (pintura, bordado, tecido, paisagem etc.).
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 3
+
+Harmonia de cores, capitulo 13
+
+Cores primarias - harmonia meio grosseira, formam um triangulo equilatero representado pelas cores: azul, vermelho e amarelo
+Cores secundarias - harmonia meio grosseira tambem, formam um triangulo equilatero de ponta-cabela representado pelas cores: verde, laranja e violeta
+Cores terciárias - são todas as outras cores que são misturas das cores primarias e secundarias
+		   sempre que for colocar o nome da cor terciaria sempre colocar primeiro o nome da primaria  e depois da secundaria
+		   uma cor terciaria esta sempre entre uma primaria e secundaria 
+
+A paleta é representado entre 3 à 5 cores
+para saber as cores 2 opçoes: 1 - veja a logo se tiver e faça a paleta pela cor primaria, 2 - pegue a cor que represente melhor o site para que vai ser o site 
+
+	Cores complementares
+São cores tem mais contraste entre si, a cor imediatamente oposta no circulo cromatico
+
+	Cores análogas
+São cores que não tem contraste tão grande entre elas mas tem uma harmonia, as cores vzinhas na paleta
+
+	Cores análogas relacionadas
+Nesse tipo de harmonia, escolhemos duas cores análogas
+(consecutivas) e depois pulamos uma terceira cor (em qualquer
+direção) e escolhemos a quarta. não tem um contraste grande
+
+	Cores intercaladas
+Nesse tipo de harmonia, escolhemos uma cor análoga
+e depois pulamos uma cor (em qualquer
+direção) e escolhemos a terceira(a próxima cor). tem um pouco mais de contraste
+
+	Cores triádicas
+Nesse tipo de harmonia, escolhemos uma cor análoga
+e depois pulamos tres cores (em qualquer
+direção) e escolhemos a quinta. formando o triangulo equilatero
+ 	
+	Cores em quadrado
+Nesse tipo de harmonia, escolhemos uma cor análoga
+e depois pulamos duas cores (em qualquer
+direção) e escolhemos a quarta.
+
+	Cores tetrádicas
+Com essa técnica, vamos escolher dois pares de cores
+complementares, que não serão necessariamente análogas ou
+consecutivas. Isso vai nos garantir dois pares de cores, com
+bastante contraste entre si. 
+ 
+	Monocromia
+Trabalha com somente uma cor, modificando nela a saturação e o brilho
+o famoso degradê
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+AULA 4
+
+Paleta de cores, capítulo 13
+
+paleta de cores adobe (circulo cromatico) - color.adobe.com
+
+RGB - para monitores
+CMYK - para impressoras 
+
+Disco de cores - você cria sua propria paleta de cores
+Extrair tema - consegue colocar a logo e por ela, o site vai fazer uma paleta de cores pra você, referente a logo	
+
+outra ferramenta - paletton.com , coolors.co
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 5
+
+Como capturar cores de tela, capitulo 13
+
+Tem 2 formas de fazer:
+
+1º - quando entrar no site tirar um print screen e depois utilizar um editor de imagem, por exemplo: GIMP, fotoshop
+	OBS: esta forma não é muito recomendado, pelo motivo de dar alugma diferença na cor que você deseja
+
+2º - fazer atraves de uma extensão do chrome chamado: ColorZilla
+	Como utilizar: ao encontrar uma cor que você deseja em algum site por exemplo, você clica na extensão do colorzilla 
+			e depois clica em PAGE COLOR PICKER ACTIVE e depois clica na cor que você quer que ele ja salva
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 6
+
+Como criar degradê com CSS, capitulo 13
+
+EX.O16 -> cor02.html
+Utilizando a tag background-image: linear-gradient(to right ou 90deg,escolha cor,escolha outra cor)
+			
+	to right->para começar da direita
+	to left -> começar da esquerda
+	to top -> começar de  cima, OBS: para não deixar zebrado tem que fazer uma configuração global da CSS -> *{} dentro de style
+		  e colocar height: 100%;
+	to bottom -> começar de baixo, OBS: para não deixar zebrado tem que fazer uma configuração global da CSS -> *{} dentro de style
+		  e colocar height: 100%;
+
+background-attachment: fixed; -> para deixar o fundo fixo, portanto, o degradê fixo			
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 7
+
+Criando um exemplo real, capitulo 13
+
+EX.016 -> cor03.html
+main - é como se fosse uma div, mas só que especial dizendo que aquele conteúdo é principal
+
+box-shadow -> 1ºparametro - diz respeito a quanto a sombra vai se deslocar para o lado 
+	      2ºparametro - diz respeito a quanto a sombra vai se deslocar para baixo
+	      3ºparametro - diz respeito a quanto essa vai se espalhar
+	      4ºparametro - diz respeito a quanto de transparença vai ter a sombra na borda
+
+text-shadow -> cria uma sombra na linha do texto, o parametros igual box-shadow
+
+width -> largura 
+padding -> espaçamento
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 8
+
+Primeiros passos em tipografia, capitulo 14
+
+Monge copista(amanuense): eram pessoas especializadas em fazer copias de livros a mão
+
+Tipografia - vem de 2 palavras gregas "typos", significa impressão, de colocar coisas no papel 
+	     "graphia", significa escrita, portanto, "tipografia" singnifica o estudo de como vou escrever
+	     coisas no papel, de como vai ser o desenho das letras, seja ela impressa ou digitalizada
+
+*A forma de escrever ela tambem transmite emoções como as cores, as pessoa pensam na junção de três coisas: imagem,boas cores e boas letras
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 9
+
+Anatomia do tipo, capitulo 14
+
+ Toda criação de letra minúscula é baseado na altura x
+ *Altura das maiúsculas - chamado a altura que as maiusculas ultrapassam a letra x
+ *Ascendente - são as letras minusculas que tem um desnivel maior pra cima que o x, por exemplo: b,k, etc.
+ *Descendente - são as letras minusculas que tem um desnivel maior pra baixo que o x, por exemplo: g, p, etc.
+ *Corpo - altura total de todas as letras
+
+	Anatomico geometrico
+   Serifa: também chamada de apoio ou patilha. Pequenas retas que
+           ornamentam as hastes de alguns tipos. 
+   Haste - traço principal de uma letra, geralmente vertical.  
+   Filete - haste horizontal ou inclinada, fechada nas duas extremidades, por duas hastes ou por uma curva
+   Arco -  presente em letras minúsculas. Uma linha curva que nasce em na haste principal.
+   Esporão - uma projeção que encontramos nas letras b e G (salto se sapato)
+   Vértice - também chamada de ápice. Formada pela convergência de
+             duas hastes que se encontram. Pode ser pontiagudo, oblíquo, plano ou
+             redondo. 
+   Terminal - forma que arremata a extremidade de uma linha curva de
+              uma letra. Quando não preso em outro lugar(não esta em duas hastes, só uma)
+   
+	Anatomico de corpo
+    Braço - traço horizontal ou inclinado, ligado à haste vertical principal de uma letra
+            maiúscula ou minúscula
+    Perna - haste vertical ou inclinada com um extremidade livre (ou com
+            um pé) e outra extremidade ligada ao corpo da letra. 
+    Pé - terminal ou serifa horizontal que arremata uma perna na parte de
+         baixo. 
+    Espinha - curva e contracurva estrutural da letra S.
+    Barriga - curva em uma letra maiúscula ou minúscula, fechada, ligada à haste
+              vertical em dois pontos. 
+    Olho - espaço em branco, fechado, dentro de uma letra. 
+    Orelha - apêndice presente na letra g, que pode ser em gota, botão,
+             bandeira ou gancho. 
+    Cauda - apêndice do corpo de algumas letras (g, j, J, K, Q, R), que fica abaixo da
+            linha base.
+
+
+Glifo - É uma letra
+Fonte - junção/conjunto de glifos
+Familia tipográfica - são tipos de glifos para diferentes familias (light, normal, seminegrito, negrito, extranegrito)
+		      OBS: nem todas as fontes tem essas variações da letra(familia tipografica), só o normal que esta 
+			   presente em todas fontes e negrito na maioria 
+
+	Categoria de Fontes - 5 categorias
+    Serifadas - tem serifas
+    Sans-serif - não tem serifas
+    Monoespeçada - as letras tem o mesmo espeçamento na largura, podem ter serifas ou não
+    Handwriting - fonte escriptada , tenta simular a escrita à mão (caligrafia humana)
+    Display - fonte que não se preocupa em estabelecer as regras anatõmicas, fontes comemorativas
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 10
+
+Familia das fontes, capitulo 14
+
+EX.017 - fonte01
+Para colocar uma fonte dentro do código e está fonte ter mais que uma palavra, colocar o mesmo entre aspas
+
+A declaração da opção de mais de uma fonte, utiliza a primeira fonte que esta disponivel, por exemplo: arial, helvetica,sans-serif;
+vai escolher uma dessas que esta escrito, chamado de combinação segura
+para saber elas pequise no google: CSS web safe combination, site: w3school
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 11
+
+Tamanho de fonte e suas medias, capitulo 14
+
+EX.017 - fonte01
+
+Medidas:
+	absolutas - cm(centimetro), mm(milimetro), in(polegada), px(pixel), pt(ponto), pc(paica)
+										esses 2	são medidas de tipografia (papel)
+	
+	relativas - em(tamanho atual da fonte), ex(relativo a altura x de uma fonte), rem(fonte que ta configurada no body)
+		    vw(largura da view-port, significa o tamanho da tela em porcentagem), vh(altura da view-port, em porcentagem)
+
+Recomendações da w3c: utiliza para medida de font-size recomenda-se o uso do px(pixel) e em(tamanho atual da fonte)
+		      não pode ter espaço entre a medida e a unidade de medida
+		      16px normalmente é o tamanho normal da fonte  16px = 1em
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 12
+
+Peso, estilo e shorthand font, capitulo 14
+
+Peso - deixar a letra magra ou gorda
+	font-weight   valores literais: lighter, normal, bold, bolder
+		      valores numericos: começa em 100 e termina em 900
+		
+		para ver todas as opções só fazer control + espaço
+
+font-style: italic; - deixa as letras em italico
+text-decoration: underline; - deixa sublinhado
+
+Shorthand = font: simplifica o código que foi feito acima
+ 
+	Ordem para shorthand: 
+font-style -> font-weight -> font-size -> font-family
+ 
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 13
+
+Usando google fonts, capitulo 14
+
+Para usar as fontes do google você pode baixar a fonte ou @import, dentro de ended na barra selection family e copiar
+link e colar na tag <style>
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 14
+
+Usando fontes externas baixadas, capitulo 14
+
+Baixar letras em um site desejavel, ver se a fonte contem todos os glifos e baixar, descompactar, copiar e colar na pasta do codigo que vai utilizar a fonte
+e para adicionar a fonte tem quecolocar uma regra na parte head e style -> @font-face{} 
+										 font-family: ;
+            									 src: url(); -> colocar o nome do arquivo, tem que ser escrita do jeito certo
+												se não pode dar erro
+										 format(); -> tipos de formato()
+												-opentype (otf)
+												-truetype (ttf)
+												-embedded-opentype
+												-truetype-aat (Apple Advanced Typography)
+												-svg
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 15
+
+Capturando as fontes usadas em um site, capitulo 14
+
+Com a extensão Fonts ninja, voce consegue pegar fontes de sites no formato de texto
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 16
+
+Detectando fontes dentro de imagens, capitulo 14
+
+Com esses sites voce consegue pegar as fontes dentro de uma imagem
+
+Sites:
+	what font is - nesse site quando tiver a foto baixada, ela detecta as fontes dentro da imagem e voce consegue colocar ela e pegar a fonte
+	Font squirrel - na aba font identifier voce consegue arrastar a imagem e ele vai identificar a imagem
+	myfonts - na aba do what the font
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 17
+
+Alinhamento de textos com CSS, capitulo 14
+
+EX.017
+
+text-indent: -> esta tag serve para dar paragrafo no texto
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 18
+
+Usando o id com CSS, capitulo 15
+
+EX.019
+
+seletor personalizado
+
+em HTML é id = em CSS é #
+em HTML é  class = em CSS é .
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////	
+
+AULA 19
+
+Diferença entre id e class, capitulo 15
+
+EX.019
+Id - limitado, só se pode ter um elemento no mesmo documento HTML
+Class - pode varios elementos e pode colocar mais de um class dentro de um elemento 
+
+As configuraçoes do id se sobrepoem a do class, uma hierarquia
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 20
+
+ Pseudo-classes em CSS, capitulo 15
+
+EX.020
+Pseudo-classes - são relacionados ao estados de um determinado elemento, reprensentados por :
+
+hover -> passar o mouse por cima do que foi determinado no codigo
+
+	*Exemplo de uma pseudo-classe	
+
+        div:hover{
+
+        }
+
+	*Este exmplo de baixo faz alteraçoes internas conhecido como children(filho), como no exemplo a tag <p> 	
+
+	div>p{ 
+
+        }
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 21
+
+Outras pseudo-classes, capitulo 15
+
+EX.020
+visited -> quando um determinado documento(link) ja foi visitado
+active -> quando um determinado documento ao momento em que clicar é ativado
+
+
+	Pseudo-Elementos, capitulo 15
+
+EX.020
+Mexe diretamento no conteudo periferico do elemento, representado por ::
+
+Alguns tipos
+
+after ->  escrita ou qualquer coisa que fica depois 
+before -> escrita ou qualquer coisa que fica antes
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 22
+
+Modelo de caixas: primeiros passos, capitulo 16
+
+Tudo que é exibido no HTML, é em forma de caixa e com isso pode-se colocar caixa dentro de caixa
+chamado de (aninnhamento)
+
+altura-height
+largura-width
+border-linha que circunda o conteudo
+padding-acochoamento ou preenchimento (deichar a borda distante do conteudo) espaço interno
+margin-espaçamento externo
+outline-contorno ou traçado, fora do elemento
+
+Tipos de caixa
+
+box-level- sempre se inicia em uma linha nova, ocupa a largura total da tela (isolado) -  
+	tags 
+		<div>
+		<h1>-<6>
+		<p>
+		<main>
+		<nav>
+		<article>
+		<aside>
+		<footer>
+		<form>
+		<video>
+inline-level- faz a caixa na mesma linha, não pega a largura inteira, fica do tamanho que precisa - 
+	tags
+ 		<span>
+		<a>
+		<code>
+		<small>
+		<strong>
+		<em>
+		<sup>-<sub>
+		<label>
+		<button>
+		<input>
+		<select>
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 23
+	
+Modelos de caixa na pratica part. 1, capitulo 16
+
+EX.021
+No documento clicar com o botao direito do mouse em inspecionar e depois no 3 pontos dock side e undock
+Utilizar o devtools para ver e entender melhor oque voce esta fazendo com as caixa
+*User agent - é o navegador que esta exibindo o seu conteudo
+
+display: block - vai ser um elemento do tipo box-level
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 24
+
+Modelos de caixa na pratica part. 2, capitulo 16
+
+margem
+
+margin: auto; -> deixa que fique centralizado
+
+shorthanding - codigo simplificado
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 25
+
+Grouping Tags, capitulo 16
+
+É como se fosse uma div
+
+header - cabeçalho
+main - conteudo principal
+footer - rodapé
+nav - onde coloca os links
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 26
+
+Sombra nas Caixas, capitulo 16
+
+Colocar desse jeito:
+
+px-deslocamento horizontal, px-deslocamento vertical, px-espalhamento da sombra, cor
+
+da para criar a sombra dentro do devtools na area onde for fazer a sombra, clicar nos 3 pontos e procurar por box-shadow
+
+outset-sombra fora do box
+inset- sombra dentro do box
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 27
+
+Caixas com vértices arredondados, capitulo 16
+
+border-radius - xx, xx, xx, xx
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 28
+
+Bordas decoradas, capitulo 16
+
+Para utilizar bordas decoradas é necessario utilizar o codigo - border-image-source: url('nome do arquivo criado(a borda criada no editor de imagem)');
+Para fatiar a imagem utilizar o codigo border-image-slice: algum numero(utilizado no exemplo foi 20);
+Para repetir utilizar border-image-repeat: repeat;
+com a borda criada em um editor de imagem
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 29
+
+Desafio modulo 2, capitulo 16
+Desenvolvido passo a passo no capitulo 17
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 30 
+
+Site para planejamneto do projeto - mockflow.com
+https://www.mockflow.com/
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 31, parte do projeto 1, capitulo 17
+
+Variáveis em CSS
+
+:root{} - pseudo-classe, raiz da arvore do nosso documento, tudo que for definido vai servir pro documento inteiro, pode criar variaveis dentro 
+	  area principal para declaraçao de variavel
+
+	  variaveis CSS tem que começar com --, por exemplo:
+						
+							    --var01:, --var02:	
+
+*{} - seleção global, serve para todos os elementos
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+AULA 32, parte do projeto 1, capitulo 17
+
+Como formatar um video ja formatado
+
+Primeira parte:
+
+- Colocar o codigo do video tirado na plataforma de escolha em um div e colocar um class
+
+
+			 <div class="video">
+						<iframe width="560" height="315" 
+			      			src="https://www.youtube.com/embed/l2UDgpLz20M" 
+						title="YouTube video player" frameborder="0" 
+						allow="accelerometer; autoplay; clipboard-write; 
+						encrypted-media; gyroscope; picture-in-picture" 
+						allowfullscreen></iframe>
+			</div>
+
+Segunda parte:
+
+- Na parte do CSS, colocar as formatações necessarios para conseguir centralizar o video( cada video tem sua adaptação para formato)
+
+
+			div.video{
+    				   background-color: var(--cor01);
+    				   margin: 0px -20px 30px -20px;
+    				   padding: 20px;
+				   padding-bottom: 50%;
+    				   position: relative;
+    				  }
+
+
+		div.video>iframe{
+				   position: absolute;
+				   top: 5%;
+				   left: 5%;
+				   width: 90%;
+				   height: 90%;
+				}
+
+Seguindo este esquema de cima( cada video com umaformataçao certa a ser usada), conseguimos centralizar o video e conseguir 
+ter a resposividade tambem.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+	
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
