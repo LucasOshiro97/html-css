@@ -58,6 +58,16 @@ Aula 4
 
 Conteudo local no iframe, capitulo 22
 
+Ex.002
+
+para colocar uma pagina que voce criou, é simplesmente colocar o nome do raquivo da pagina
+que ela ira aparecer como frame
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 5
+
+Navegação no iframe, capitulo 22
 
 
 

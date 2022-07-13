@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site para iframe</title>
+</head>
+<body>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="midia/A-Simple-Feeling-Alge.mp3"  controls autoplay></audio> <!-- MP3 - WAV OU OGG -->
+
+    <H1>Outra maneira de colocar áudio</H1>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/A-Simple-Feeling-Alge.mp3" type="audio/mpeg">
+        <source src="midia/A-Simple-Feeling-Alge.ogg" type="audio/ogg">
+        <source src="midia/A-Simple-Feeling-Alge.wav" type="audio/wav">
+    </audio>
+    <p>se não rodar nenhum desses tipos, infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/A-Simple-Feeling-Alge.mp3">Clique aqui</a> para baixar o arquivo</p>
+</body>
+</html>
