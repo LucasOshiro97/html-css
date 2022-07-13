@@ -29,6 +29,35 @@ Aula 3
 
 Configurando o iframe, capitulo 22
 
+Ex.001
+
+Se o iframe não for compativel, adicionar o link para que possa conseguir entrar no site
+
+Tamanho padrao de um iframe é de: 300x150 pixels
+
+para mudar modificar a altura e largura
+
+Personalização:
+*scolling:
+
+-auto: padrao, se  o site padrao exceder o frame, é criado a barra de rolagem
+-yes: apacere a barra de rolagem em qualquer das situações
+-no: não permite fazer rolagem, mas isso depende do navegador, por exemplo: no google chrome mesmo colocando esta variavel ele continua rolando
+
+frameborder só permite valores de 0 e qualquer outro numero.
+-0: significa a exclusao da borda
+-qualquer numero: significa a adiçao da borda
+
+para personalizar a borda, é igual das aulas de css que ja foram visto
+
+Personalizam com CSS, fica como primeira resposta para o site do que o inline  
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 4
+
+Conteudo local no iframe, capitulo 22
+
 
 
 
