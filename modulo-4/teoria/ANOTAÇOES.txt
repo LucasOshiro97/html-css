@@ -80,6 +80,11 @@ Aula 6
 
 Conteudo no iframe por codigo, capitulo 22
 
+Ex.iframe003
+
+Parametro para deixar ja um conteudo no iframe quando carrega a pagina e não em branco que so vai aparece quando clica no link
+
+scrdoc -> nesse parametro voce consegue colocar informaçoes (HTML), dentro do iframe sem ser de outra pagina
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
