@@ -100,6 +100,8 @@ Aula 8
 
 Tornando iframes mais seguros, capitulo 22
 
+Ex.iframe004
+Ex.iframe005
 Uma forma para transformar o iframe mais seguro, tag a ser utlizado é:
 
 sandbox="sandbox" -> esta tag faz com que ele crie uma proteção contra ataques, pois ele não recebe mais nenhum tipo de informação
