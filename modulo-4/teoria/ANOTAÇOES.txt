@@ -91,14 +91,31 @@ scrdoc -> nesse parametro voce consegue colocar informaçoes (HTML), dentro do i
 Aula 7
 
 Inconvenientes do iframe, capitulo 22
-
-
+ 
+perigos de ataques de cross site ou xss 
+ 
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Aula 8
 
 Tornando iframes mais seguros, capitulo 22
 
+Uma forma para transformar o iframe mais seguro, tag a ser utlizado é:
+
+sandbox="sandbox" -> esta tag faz com que ele crie uma proteção contra ataques, pois ele não recebe mais nenhum tipo de informação
+
+Outra maneira:
+
+configurar o parametro:
+
+referrerpolicy="no-referer-when-downgrade" -> ele faz com que o conteudo dentro do iframe fique um pouco mais limitado
+
+Eu posso permitir pararmetros para que possa ser utilizado no site, sem que fique impossibilitado de receber informação
+um exemplo é:
+
+sandbox="allow-same-origin allow-forms allow-scripts" -> com este parametro eu estou permitindo que seja habilitado
+							 coisas da mesma origem, formularios e scripts
+e as outras informaçoes continuam ligadas na segurança
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
