@@ -178,7 +178,34 @@ Aula 17
 
 Como criar formularios com HTML, capitulo 24
 
+Ex. form001
 Formulario: local onde se pode colocar dados
  
+/////////////////////////////////////////////////////////////////////////////////////////
 
+Aula 18
 
+Usar label vai melhorar seus formularios, capitulo 24
+
+Ex.form001
+
+<form autocomplete="off"> -> faz com desligue a opção de completar seu input, por exemplo seu que ja foi registrado
+
+label=etiqueta -> faz ligaçao de uma palavra com o input, *importante para construção de qualquer formulario
+
+name != id
+
+name= nome do objeto, mais util para HTML e PHP
+id=identificação deste objeto, mais util para JavaScript
+
+o for do label recebe o id
+
+/////////////////////////////////////////////////////////////////////////////////////////// 
+
+Aula 19
+
+Métodos GET e POST para formularios, capitulo 24
+
+GET -> metodo padrao, quando não colocamos metodo nenhum, utilizado quando os dados não forem sensiveis
+	
+POST -> metodo onde não coloca as informaçoes na URL, deixando eles invisiveis, mas não protege os dados
