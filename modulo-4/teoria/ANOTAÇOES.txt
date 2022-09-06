@@ -209,3 +209,29 @@ Métodos GET e POST para formularios, capitulo 24
 GET -> metodo padrao, quando não colocamos metodo nenhum, utilizado quando os dados não forem sensiveis
 	
 POST -> metodo onde não coloca as informaçoes na URL, deixando eles invisiveis, mas não protege os dados
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 20
+
+Criando caixas de texto e de senha, capitulo 24
+
+input tipo password = botao do tipo senha
+input do tipo submit= botao de enviar(submissão)
+input de tipo reset = botao de limpar(resetar)
+
+REQUIRED = requerido ou obrigatorio
+
+minlength e maxlength -> indica a quantidade de caracteres o usuario tem que colocar para conseguir validar
+			 o campo desejado 
+
+o size no input -> faz com que a caixa fique do tamanho desejado, mas isso não quer dizer que o size limita a 
+quantidade de letras que pode ser colocado na caixa de input, oque faz isso são os dois comando encima
+
+placeholder -> comando para deixar um texto dentro da caixa 
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Aula 21
+
+
