@@ -216,6 +216,7 @@ Aula 20
 
 Criando caixas de texto e de senha, capitulo 24
 
+Ex.form002
 input tipo password = botao do tipo senha
 input do tipo submit= botao de enviar(submissão)
 input de tipo reset = botao de limpar(resetar)
@@ -233,5 +234,10 @@ placeholder -> comando para deixar um texto dentro da caixa
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Aula 21
+
+Elementos number, month, date e time em formularios, capitulo 24
+
+step -> passo
+
 
 
